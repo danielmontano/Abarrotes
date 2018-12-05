@@ -1,0 +1,187 @@
+ #a.navbar #a.container{
+    /* cambia estos dos valores para definir el tamaño de tu círculo */
+    position: fixed;
+}
+
+
+#a.nav {
+  margin-top: -20px;
+  margin-right: -80px; 
+   position:relative;
+     background-color:#2874f0;
+}
+#d.nav {
+  margin-top: -8px;
+  margin-right: 90px;
+    position:relative;
+     background-color:#2874f0
+
+}
+#d.nav>li>a:hover, #d.nav>li>a:focus, #d.nav #d.open>a, #d.nav #d.open>a:hover, #d.nav #d.open>a:focus {
+    background:#379aef;
+}
+#a.nav>li>a:hover, #a.nav>li>a:focus, #a.nav #a.open>a, #a.nav #a.open>a:hover, #a.nav #a.open>a:focus {
+    background:#379aef;
+}
+li.active a { color: #f4ba51 ; }
+
+#a.dropdown {
+    background:#2874f0;
+    border-radius:-100px;
+    width:250px;    
+}
+#a.dropdown-menu>li>a {
+    background: #379aef;
+}
+
+#a.dropdown-menu>li>a:hover {
+    background: #1a5182;
+    color: #1a5182;
+}
+#a.dropdown ul#a.dropdown-menu {
+    border-radius:4px;
+    box-shadow:none;
+    margin-top:18px;
+    width:250px;
+    background: #379aef;
+}
+#a.dropdown ul#a.dropdown-menu:before {
+    content: "";
+    border-bottom: 10px solid #379aef;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position: absolute;
+    top: -12px;
+    right: 16px;
+    z-index: 10;
+}
+
+#a.dropdown ul#a.dropdown-menu:after {
+    content: "";
+    border-bottom: 12px solid #379aef;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    position: absolute;
+    top: -12px;
+    right: 14px;
+    z-index: 9;
+  }
+
+
+
+    #b.navbar #b.container{
+    position: fixed;
+}
+
+
+#b.nav {
+  margin-top: -8px;
+    position:relative;
+     background-color:#2874f0
+
+}
+#b.nav>li>a:hover, #b.nav>li>a:focus, #b.nav #b.open>a, #b.nav #b.open>a:hover, #b.nav #b.open>a:focus {
+    background:#379aef;
+}
+li.active a { color: #f4ba51 ; }
+
+#b.dropdown {
+    background:#2874f0;
+    border-radius:-100px;
+    width:85px;    
+}
+#b.dropdown-menu>li>a {
+    background: #379aef;
+}
+
+#b.dropdown-menu>li>a:hover {
+    background: #1a5182;
+    color: #1a5182;
+}
+#b.dropdown ul#b.dropdown-menu {
+    border-radius:4px;
+    box-shadow:none;
+    margin-top:18px;
+    width:340px;
+    background: #379aef;
+}
+#b.dropdown ul#b.dropdown-menu:before {
+    content: "";
+    border-bottom: 10px solid #379aef;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position: absolute;
+    top: -12px;
+    left: 16px;
+    z-index: 10;
+}
+
+#b.dropdown ul#b.dropdown-menu:after {
+    content: "";
+    border-bottom: 12px solid #379aef;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    position: absolute;
+    top: -12px;
+    left: 14px;
+    z-index: 9;
+}
+
+
+#c.navbar #c.container{
+    position: fixed;
+}
+
+
+#c.nav {
+  margin-top: -8px;
+    position:relative;
+     background-color:#2874f0
+
+}
+#c.nav>li>a:hover, #c.nav>li>a:focus, #c.nav #c.open>a, #c.nav #c.open>a:hover, #c.nav #c.open>a:focus {
+    background:#379aef;
+}
+li.active a { color: #f4ba51 ; }
+
+#c.dropdown {
+    background:#2874f0;
+    border-radius:-100px;
+    width:90px;    
+}
+#c.dropdown-menu>li>a {
+    background: #379aef;
+}
+
+#c.dropdown-menu>li>a:hover {
+    background: #1a5182;
+    color: #1a5182;
+}
+#c.dropdown ul#c.dropdown-menu {
+    border-radius:4px;
+    box-shadow:none;
+    margin-top:18px;
+    width:90px;
+    background: #379aef;
+}
+#c.dropdown ul#c.dropdown-menu:before {
+    content: "";
+    border-bottom: 10px solid #379aef;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position: absolute;
+    top: -12px;
+    left: 16px;
+    z-index: 10;
+}
+
+#c.dropdown ul#c.dropdown-menu:after {
+    content: "";
+    border-bottom: 12px solid #379aef;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    position: absolute;
+    top: -12px;
+    left: 14px;
+    z-index: 9;
+}
